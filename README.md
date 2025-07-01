@@ -57,8 +57,8 @@ Primeiro, clone o repositório para o seu ambiente local:
       ports:
         - 27017:27017
       environment:
-        - MONGO_INITDB_ROOT_USERNAME=admin
-        - MONGO_INITDB_ROOT_PASSWORD=123
+        - MONGO_INITDB_ROOT_USERNAME=seu_user
+        - MONGO_INITDB_ROOT_PASSWORD=sua_password
 
     rabbitmq:
       image: rabbitmq:3.13-management
